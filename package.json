@@ -10,8 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "run":  "node 0x03-ES6_data_manipulation/0-main.js"
+    "start":  "node 0x03-ES6_data_manipulation/0-main.js"
   },
   "repository": {
     "type": "git",
