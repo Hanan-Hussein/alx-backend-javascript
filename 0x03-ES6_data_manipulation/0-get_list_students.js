@@ -1,9 +1,11 @@
-function getListStudents() {
-    let students = new Map()
-    students.set({ id: 1, firstName: 'Guillaume', location: 'San Francisco' })
-    students.set({ id: 2, firstName: 'James', location: 'Columbia' })
-    students.set({ id: 5, firstName: 'Serena', location: 'San Francisco' })
+export function getListStudents() {
 
-    console.log(students);
+    let students = [
+        { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
+        { id: 2, firstName: 'James', location: 'Columbia' },
+        { id: 5, firstName: 'Serena', location: 'San Francisco' }
+    ];
+	return students
+
 }
-// getListStudents()
+
