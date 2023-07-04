@@ -3,7 +3,7 @@
  * @author Hanan Hussein
  * @returns {{id: Number, firstName: String, location: String}[]}
  */
-export function getListStudents() {
+export default function getListStudents() {
     return [
         { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
         { id: 2, firstName: 'James', location: 'Columbia' },
