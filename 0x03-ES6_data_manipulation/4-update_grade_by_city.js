@@ -1,6 +1,6 @@
 /**
- * Updates the grades of a list of students in a given city.
- * @param {{
+* Updates the grades of a list of students in a given city.
+* @param {{
 *   id: Number,
 *   firstName: String,
 *   location: String
@@ -14,20 +14,22 @@
 * @returns {{id: Number, firstName: String, location: String}[]}
 */
 export default function updateStudentGradeByCity(students, city, newGrades) {
+  let updatedStd = [];
 
-  let updatedStd = []
-  students.filter((std) => {
-    if (std.location === city) {
-        newGrades.map((grade) => {
-            if (grade.studentId === std.id) {
-                std.grade = grade.grade
-            }
-            else {
-                std.grade == null ? std.grade = 'N/A' : std.grade
-            }
-        })
-        updatedStd.push(std)
-    }
-})
-return updatedStd
+  if (students instanceof Array) {
+    students.filter((std) => {
+        if (std.location === city) {
+            newGrades.map((grade) => {
+                if (grade.studentId === std.id) {
+                    std.grade = grade.grade;
+                }
+                else {
+                    std.grade == null ? std.grade = 'N/A' : std.grade;
+                }
+            })
+            updatedStd.push(std);
+        }
+    })
+}
+return updatedStd;
 }
