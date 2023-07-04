@@ -15,5 +15,5 @@ export default function getStudentIdsSum(students) {
          0,
       );
    }
-   return 0
+   return 0;
 }
