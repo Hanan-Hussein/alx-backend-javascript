@@ -6,7 +6,7 @@
 *   location: String
 * }[]} students - The list of students.
 * @author Hanan Hussein <https://github.com/Hanan-Hussein>
-* @returns {Number}  
+* @returns {Number}
 */
 export default function getStudentIdsSum(students) {
    if (students instanceof Array) {
