@@ -13,4 +13,3 @@ export function getListStudents() {
 	return students
 
 }
-
