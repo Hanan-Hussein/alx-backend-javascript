@@ -10,5 +10,8 @@
 * @returns
 */
 export default function getStudentsByLocation(students, loct) {
-  return students.filter(std => loct == std.location)
+  if (students instanceof Array) {
+    return students.filter(std => loct == std.location)
+  }
+  return []
 }
