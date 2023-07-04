@@ -1,3 +1,8 @@
+/**
+ * Retrieves a list of students.
+ * @author Hanan Hussein
+ * @returns {{id: Number, firstName: String, location: String}[]}
+ */
 export function getListStudents() {
 
     let students = [
