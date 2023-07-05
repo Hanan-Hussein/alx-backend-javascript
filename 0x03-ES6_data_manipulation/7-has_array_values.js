@@ -1,6 +1,6 @@
 /**
  * Creates a set from an array.
- * @param {Set} set - The collection of unique array.
+ * @param {Set} set - The collection of unique items.
  * @param {*} array - The array of items.
  * @author Hanan Hussein <https://github.com/Hanan-Hussein>
  * @returns {Boolean}
