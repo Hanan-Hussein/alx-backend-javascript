@@ -1,5 +1,5 @@
 /**
- * Creates a set from an array.
+ * Checks if a set contains each element in an array.
  * @param {Set} set - The collection of unique items.
  * @param {*} array - The array of items.
  * @author Hanan Hussein <https://github.com/Hanan-Hussein>
