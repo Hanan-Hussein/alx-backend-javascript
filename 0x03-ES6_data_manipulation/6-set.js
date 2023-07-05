@@ -4,6 +4,6 @@
  * @author Hanan Hussein <https://github.com/Hanan-Hussein>
  * @returns {Set}
  */
-export default function setFromArray(array){
-    return new Set(element);
-}
+export default function setFromArray(array) {
+    return new Set(array);
+  }
