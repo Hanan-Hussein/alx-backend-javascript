@@ -1,6 +1,6 @@
 /**
  * Creates a set from an array.
- * @param {Array} array - The source array.
+ * @param {Array} element - The source array.
  * @author Hanan Hussein <https://github.com/Hanan-Hussein>
  * @returns {Set}
  */
